@@ -1,18 +1,23 @@
-import Navbar from "./Navbar";
-import Today from "./Today";
-import Footer from "./Footer";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
+import Today from "./pages/Today";
+import AddPill from "./pages/AddPill";
 
 function App() {
 	return (
-		<div>
-			<body className="bg-gray-900 h-screen">
+		<Router>
+			<body className="bg-gray-800">
 				<Navbar />
-				<div>
-					<Today />
-				</div>
+				<Switch>
+					<Route path="/" exact component={Today} />
+					<Route path="/add-pill" component={AddPill} />
+				</Switch>
 				<Footer />
 			</body>
-		</div>
+		</Router>
 	);
 }
 
