@@ -1,9 +1,11 @@
 import React from "react";
 
+import AddForm from "../components/AddForm";
+
 function AddPill() {
 	return (
 		<div>
-			<h1>This is the Add Pill Page</h1>
+			<AddForm />
 		</div>
 	);
 }

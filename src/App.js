@@ -9,7 +9,7 @@ import AddPill from "./pages/AddPill";
 function App() {
 	return (
 		<Router>
-			<body className="bg-gray-800">
+			<body className="min-h-screen bg-gray-800">
 				<Navbar />
 				<Switch>
 					<Route path="/" exact component={Today} />

@@ -1,9 +1,11 @@
 import React from "react";
 
+import DoseCard from "../components/DoseCard";
+
 function Today() {
 	return (
 		<div>
-			<h1>This is the Today Page</h1>
+			<DoseCard frequency="Morning" />
 		</div>
 	);
 }
