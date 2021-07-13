@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/atheles-react/static/css/main.68a95e1b.chunk.css",
+    "main.js": "/atheles-react/static/js/main.3716f5d9.chunk.js",
+    "main.js.map": "/atheles-react/static/js/main.3716f5d9.chunk.js.map",
+    "runtime-main.js": "/atheles-react/static/js/runtime-main.e0fb85e3.js",
+    "runtime-main.js.map": "/atheles-react/static/js/runtime-main.e0fb85e3.js.map",
+    "static/js/2.c2fd77a2.chunk.js": "/atheles-react/static/js/2.c2fd77a2.chunk.js",
+    "static/js/2.c2fd77a2.chunk.js.map": "/atheles-react/static/js/2.c2fd77a2.chunk.js.map",
+    "index.html": "/atheles-react/index.html",
+    "static/css/main.68a95e1b.chunk.css.map": "/atheles-react/static/css/main.68a95e1b.chunk.css.map",
+    "static/js/2.c2fd77a2.chunk.js.LICENSE.txt": "/atheles-react/static/js/2.c2fd77a2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0fb85e3.js",
+    "static/js/2.c2fd77a2.chunk.js",
+    "static/css/main.68a95e1b.chunk.css",
+    "static/js/main.3716f5d9.chunk.js"
+  ]
+}
